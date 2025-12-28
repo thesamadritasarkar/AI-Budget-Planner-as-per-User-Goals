@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Budget Planner </title>
+  <link rel="stylesheet" href="budgetstyle.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI Budget Planner for Your Goals</h1>
+    <p class="subtitle">Plan your savings smartly with AI assistance.</p>
+
+    <form id="goalForm">
+      <label for="income">💵 Monthly Income (₹):</label>
+      <input type="number" id="income" placeholder="e.g. 40000" required />
+
+      <label for="savings">💰 Current Savings (₹):</label>
+      <input type="number" id="savings" placeholder="e.g. 15000" required />
+
+      <label for="goal">🎯 What is your goal?</label>
+      <input type="text" id="goal" placeholder="e.g. Go to Maldives for vacation" required />
+
+      <label for="targetAmount">🏖️ Target Amount (₹):</label>
+      <input type="number" id="targetAmount" placeholder="e.g. 200000" required />
+
+      <label for="timeFrame">🗓️ Time Frame (in months):</label>
+      <input type="number" id="timeFrame" placeholder="e.g. 6" required />
+
+      <button type="submit">Generate My Budget Plan</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="budgetscript.js"></script>
+</body>
+</html>
