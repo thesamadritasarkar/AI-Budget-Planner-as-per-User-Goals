@@ -1,7 +1,7 @@
-# AI Budget Planner – Goal-Oriented Financial Advisor
-
 # Live Demo
 https://thesamadritasarkar.github.io/AI-Budget-Planner-as-per-User-Goals/
+
+# AI Budget Planner – Goal-Oriented Financial Advisor
 
 A full-stack web application that helps users plan realistic monthly savings
 based on income, expenses, and personal financial goals using Machine Learning
